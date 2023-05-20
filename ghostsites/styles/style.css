@@ -27,6 +27,12 @@ body {
     height: 70px;
 }
 
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 .logoname {
     display: flex;
     color: white;
