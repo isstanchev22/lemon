@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
     background-color: #6ad2f5;
@@ -12,30 +12,114 @@ body {
 }
 
 .topnav {
-    background-color: #006cbc;
+    position: relative;
     width: 100vw;
-    height: 60px;
+    height: 110px;
     display: flex;
+
     align-items: center;
     justify-content: left;
-    gap: 5px;
+    background: #F99B1D;
 }
 
-.logo {
+.menu {
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    bottom: 0px;
     display: flex;
-    width: 70px;
-    height: 70px;
-}
 
-a {
-    display: flex;
     align-items: center;
-    text-decoration: none;
+    background: #F15523;
+    border-top-right-radius: 250%;
 }
 
-.logoname {
-    display: flex;
+.menu button {
+    position: relative;
+    background: none;
     color: white;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 27px;
+    left: 0px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 18px;
+}
+
+.lemon1 {
+    position: relative;
+    width: 290px;
+    height: 110px;
+
+    background: url(../img/nooo.png);
+}
+
+
+.peroff {
+    position: absolute;
+    left: 60%;
+    height: 90px;
+    width: 180px;
+    border-radius: 150px 150px 0 0;
+    background-color: #F15523;
+    rotate: -180deg;
+}
+
+.peroff h1 {
+    position: absolute;
+    width: 107px;
+    height: 56px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: center;
+    top: 10%;
+    left: 20%;
+    color: #FFFFFF;
+    rotate: 180deg;
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
