@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
 
 body {
-    background-color: #6ad2f5;
+    background-color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,9 +94,74 @@ body {
 
 .lemon3 {
     position: absolute;
+    left: 33%;
     width: 450px;
     height: 110px;
-    left: 20%;
+}
+
+.lemon3_1 {
+    position: absolute;
+    left: 66.5%;
+    width: 450px;
+    height: 110px;
+}
+
+.lemon4 {
+    position: absolute;
+    width: 250px;
+    height: 111px;
+    left: 21%;
+    transform: rotate(-0.25deg);
+}
+
+.lemon4_1 {
+    position: absolute;
+    width: 250px;
+    height: 111px;
+    left: 54.5%;
+    transform: rotate(-0.25deg);
+}
+
+.lemon4_2 {
+    position: absolute;
+    width: 250px;
+    height: 111px;
+    right: 0%;
+    transform: rotate(-0.25deg);
+}
+
+.topnav p {
+    position: absolute;
+    width: 205px;
+    height: 23px;
+    left: 44.8%;
+    top: 16%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: #F3EC3A;
+
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.75);
+}
+
+.orderbut {
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    right: 3%;
+    background: #F15523;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    color: white;
 }
 
 .peroff {
