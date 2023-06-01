@@ -52,13 +52,28 @@ body {
     width: 290px;
     height: 110px;
 
-    background: url(../img/nooo.png);
+    background: url(../img/lemon.png);
 }
 
+.lemon2 {
+    position: relative;
+    width: 68px;
+    height: 50px;
+    bottom: -27%;
+    left: -4.3%;
+}
+
+.lemon3 {
+    position: absolute;
+    width: 450px;
+    height: 110px;
+    left: 20%;
+}
 
 .peroff {
     position: absolute;
-    left: 60%;
+    top: 0%;
+    left: 12.5%;
     height: 90px;
     width: 180px;
     border-radius: 150px 150px 0 0;
@@ -77,7 +92,7 @@ body {
     font-size: 20px;
     line-height: 17px;
     text-align: center;
-    top: 10%;
+    top: 15%;
     left: 20%;
     color: #FFFFFF;
     rotate: 180deg;
