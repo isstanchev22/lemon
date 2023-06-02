@@ -14,7 +14,7 @@ body {
 
 .topnav {
     position: relative;
-    width: 100vw;
+    width: 99vw;
     height: 110px;
     display: flex;
 
@@ -77,19 +77,18 @@ body {
 }
 
 .lemon1 {
-    position: relative;
+    position: absolute;
     width: 350px;
     height: 110px;
-    left: -40%;
-    background: url(../img/lemon.png);
+    left: 0%;
 }
 
 .lemon2 {
-    position: relative;
+    position: absolute;
     width: 68px;
     height: 50px;
-    bottom: -27%;
-    left: -42%;
+    bottom: 0%;
+    left: 16%;
 }
 
 .lemon3 {
@@ -192,8 +191,6 @@ body {
     rotate: 180deg;
 }
 
-
-
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
@@ -231,4 +228,224 @@ body {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+
+.info {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.info h1 {
+    position: absolute;
+    width: 80%;
+    height: 77px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+    position: absolute;
+    width: 60%;
+    height: 103px;
+    top: 45%;
+    left: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.lemon5 {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    width: 390px;
+    height: 460px;
+}
+
+.leaves {
+    position: absolute;
+    top: 70%;
+    right: 0%;
+    width: 290px;
+    height: 400px;
+}
+
+.info button {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 10%;
+    top: 80%;
+    background: #F15523;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 15px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    width: 99vw;
+    height: 200vh;
+}
+
+.prodback {
+    position: absolute;
+    width: 99vw;
+    height: 200vh;
+}
+
+.lemon6 {
+    position: absolute;
+    width: 370px;
+    height: 480px;
+    left: -3.4%;
+    top: 88%;
+}
+
+.productsh1 {
+    position: absolute;
+    top: 10%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+
+.products p {
+    position: absolute;
+    width: 1000px;
+    height: 54px;
+    top: 15%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.ellipse1 {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 7%;
+}
+
+.blender {
+    position: absolute;
+    top: 34%;
+    left: 10%;
+    width: 30%;
+    height: 30%;
+}
+
+.blenderh1 {
+    position: absolute;
+    top: 59.5%;
+    left: 16%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.ellipse2 {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    right: 7%;
+}
+
+.juicer2 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 35%;
+    height: 35%;
+}
+
+.juicerh1 {
+    position: absolute;
+    top: 59.5%;
+    right: 20%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.lemon7 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    bottom: 0%;
+    right: 0%;
+}
+
+.lemon8 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 5%;
+    top: 19%;
+    transform: rotate(-23deg);
+}
+
+.lemon9 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    bottom: 27%;
+    left: 0%;
+    transform: rotate(35deg);
 }
