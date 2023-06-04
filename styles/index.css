@@ -247,3 +247,30 @@ p {
     background: url(../img/robot2.png);
     border-radius: 33px;
 }
+
+.prosandcons h1 {
+    position: absolute;
+    width: 1122px;
+    height: 40px;
+    left: 636px;
+    top: 6240px;
+}
+
+.prosandcons p {
+    position: absolute;
+    width: 611px;
+    height: 520px;
+    left: 87px;
+    top: 6425px;
+}
+
+.prosandcons_img {
+    position: absolute;
+    width: 1030px;
+    height: 585px;
+    left: 802px;
+    top: 6450px;
+
+    background: url(../img/robot3.png);
+    border-radius: 33px;
+}
