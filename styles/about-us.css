@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 
 body {
     background-color: #1E1E1E;
@@ -52,6 +53,59 @@ nav {
 #ell2 {
     right: 0px;
     top: 500px;
+}
+
+nav {
+    position: absolute;
+    width: 602px;
+    height: 162.89px;
+    left: 1189px;
+    top: 0px;
+}
+
+#home {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #C9C9C9;
+}
+
+#feedback {
+    position: absolute;
+    right: 200px;
+    top: 40px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #C9C9C9;
+}
+
+#about-us {
+    position: absolute;
+    right: 450px;
+    top: 40px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #0075FE;
 }
 
 .cards {
