@@ -1,1 +1,267 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+    background-color: #1E1E1E;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+nav {
+    position: absolute;
+    width: 602px;
+    height: 162.89px;
+    left: 1189px;
+    top: 70.1px;
+}
+
+.ellipse {
+    position: absolute;
+    width: 433px;
+    height: 411px;
+
+    background: linear-gradient(90deg, #00FF29 0%, #222AD9 100%);
+    mix-blend-mode: normal;
+    filter: blur(189px);
+}
+
+#ell1 {
+    left: -37px;
+    top: -110px;
+}
+
+#ell2 {
+    right: 0px;
+    top: 500px;
+}
+
+.cards {
+    position: absolute;
+    width: 1920px;
+    height: 635.12px;
+    left: calc(50% - 1920px/2);
+    top: 200px;
+}
+
+#card1 {
+    position: absolute;
+    width: 364.58px;
+    height: 600px;
+    left: 85px;
+    top: 20px;
+
+    background: rgba(240, 240, 240, 0.941176);
+    border-radius: 33px;
+}
+
+#scrum_img {
+    position: absolute;
+    width: 332px;
+    height: 414px;
+    left: 15px;
+    top: 20px;
+
+    border-radius: 33px;
+}
+
+#title1 {
+    position: absolute;
+    width: 240px;
+    height: 66px;
+    left: calc(50% - 240px/2);
+    top: 450px;
+
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#name1 {
+    position: absolute;
+    width: 250px;
+    height: 66px;
+    left: calc(50% - 250px/2);
+    top: 500px;
+
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#card2 {
+    position: absolute;
+    width: 364.58px;
+    height: 600px;
+    left: 546px;
+    top: 20px;
+
+    background: rgba(240, 240, 240, 0.941176);
+    border-radius: 33px;
+}
+
+#front1_img {
+    position: absolute;
+    width: 332px;
+    height: 414px;
+    left: 15px;
+    top: 20px;
+
+    border-radius: 33px;
+}
+
+#title2 {
+    position: absolute;
+    width: 340px;
+    height: 66px;
+    left: calc(50% - 340px/2);
+    top: 450px;
+
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#name2 {
+    position: absolute;
+    width: 250px;
+    height: 66px;
+    left: calc(50% - 250px/2);
+    top: 500px;
+
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#card3 {
+    position: absolute;
+    width: 364.58px;
+    height: 600px;
+    left: 1008px;
+    top: 20px;
+
+    background: rgba(240, 240, 240, 0.941176);
+    border-radius: 33px;
+}
+
+#front2_img {
+    position: absolute;
+    width: 332px;
+    height: 414px;
+    left: 15px;
+    top: 20px;
+
+    border-radius: 33px;
+}
+
+#title3 {
+    position: absolute;
+    width: 340px;
+    height: 66px;
+    left: calc(50% - 340px/2);
+    top: 450px;
+
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#name3 {
+    position: absolute;
+    width: 250px;
+    height: 66px;
+    left: calc(50% - 250px/2);
+    top: 500px;
+
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#card4 {
+    position: absolute;
+    width: 364.58px;
+    height: 600px;
+    left: 1470px;
+    top: 20px;
+
+    background: rgba(240, 240, 240, 0.941176);
+    border-radius: 33px;
+}
+
+#designer_img {
+    position: absolute;
+    width: 332px;
+    height: 414px;
+    left: 15px;
+    top: 20px;
+
+    border-radius: 33px;
+}
+
+#title4 {
+    position: absolute;
+    width: 340px;
+    height: 66px;
+    left: calc(50% - 340px/2);
+    top: 450px;
+
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#name4 {
+    position: absolute;
+    width: 250px;
+    height: 66px;
+    left: calc(50% - 250px/2);
+    top: 500px;
+
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
