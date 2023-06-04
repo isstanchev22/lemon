@@ -5,6 +5,80 @@ body {
     background-color: #1E1E1E;
 }
 
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+.maintext {
+    position: absolute;
+    width: 640px;
+    height: 200px;
+    left: calc(50% - 640px/2);
+    top: 452px;
+}
+
+.maintext h1 {
+    position: absolute;
+    width: 640px;
+    height: 148px;
+    top: -250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 148px;
+    line-height: 148px;
+    /* identical to box height, or 53% */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    background: linear-gradient(91.36deg, #0075FF 34.69%, #003F9D 66.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.maintext p {
+    position: absolute;
+    width: 493px;
+    height: 148px;
+    left: calc(50% - 493px/2);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 117% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.88;
+}
+
 .ellipse {
     position: absolute;
     width: 433px;
