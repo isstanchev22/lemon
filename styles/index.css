@@ -199,3 +199,51 @@ p {
     background: url(../img/robot4.png);
     border-radius: 33px;
 }
+
+.applications h1 {
+    position: absolute;
+    width: 825px;
+    height: 40px;
+    left: 99px;
+    top: 4746px;
+}
+
+.applications p {
+    position: absolute;
+    width: 819px;
+    height: 1113px;
+    left: 995px;
+    top: 4890px;
+    text-align: right;
+}
+
+.applications ul {
+    position: absolute;
+    width: 819px;
+    height: 1113px;
+    left: 955px;
+    top: 5570px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+
+    text-align: right;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+.applications_img {
+    position: absolute;
+    width: 857px;
+    height: 1080px;
+    left: 87px;
+    top: 4883px;
+
+    background: url(../img/robot2.png);
+    border-radius: 33px;
+}
