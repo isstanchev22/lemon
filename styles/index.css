@@ -48,7 +48,7 @@ nav {
     line-height: 24px;
 
     text-decoration: none;
-    color: #0075FE;
+    color: #D97A22;
 }
 
 #feedback {
@@ -105,7 +105,7 @@ nav {
     text-align: center;
     letter-spacing: -0.01em;
 
-    background: linear-gradient(91.36deg, #0075FF 34.69%, #003F9D 66.45%);
+    background: linear-gradient(91.36deg, #EBFF00 34.69%, #D97A22 66.45%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -139,7 +139,7 @@ nav {
     left: calc(50% - 265px/2);
     top: 200px;
 
-    background: #003F9D;
+    background: #D97A22;
     box-shadow: -2px 4px 6px -2px #F0F0F0;
     border-radius: 16px;
 
@@ -162,7 +162,7 @@ nav {
     width: 433px;
     height: 411px;
 
-    background: linear-gradient(90deg, #00FF29 0%, #222AD9 100%);
+    background: linear-gradient(90deg, #EBFF00 0%, #D97A22 100%);
     mix-blend-mode: normal;
     filter: blur(189px);
 }
