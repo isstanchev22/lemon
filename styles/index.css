@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 
 body {
     background-color: #1E1E1E;
@@ -25,6 +26,48 @@ p {
     letter-spacing: 0.045em;
 
     color: #FFFFFF;
+}
+
+nav {
+    position: absolute;
+    width: 602px;
+    height: 162.89px;
+    left: 1189px;
+    top: 70.1px;
+}
+
+#home {
+    position: absolute;
+    left: 88.33%;
+    right: 6.72%;
+    top: 0.97%;
+    bottom: 96.81%;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #0075FE;
+}
+
+#feedback {
+    position: absolute;
+    left: 75.94%;
+    right: 17.14%;
+    top: 0.96%;
+    bottom: 96.82%;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #C9C9C9;
 }
 
 .maintext {
