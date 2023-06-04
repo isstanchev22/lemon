@@ -33,15 +33,13 @@ nav {
     width: 602px;
     height: 162.89px;
     left: 1189px;
-    top: 70.1px;
+    top: 0px;
 }
 
 #home {
     position: absolute;
-    left: 88.33%;
-    right: 6.72%;
-    top: 0.97%;
-    bottom: 96.81%;
+    right: 20px;
+    top: 40px;
 
     font-family: 'Cabin';
     font-style: normal;
@@ -55,10 +53,23 @@ nav {
 
 #feedback {
     position: absolute;
-    left: 75.94%;
-    right: 17.14%;
-    top: 0.96%;
-    bottom: 96.82%;
+    right: 200px;
+    top: 40px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #C9C9C9;
+}
+
+#about-us {
+    position: absolute;
+    right: 450px;
+    top: 40px;
 
     font-family: 'Cabin';
     font-style: normal;
