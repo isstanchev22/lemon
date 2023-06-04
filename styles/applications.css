@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+body {
+    background-color: #1E1E1E;
+}
+
+h1 {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+.ellipse {
+    position: absolute;
+    width: 433px;
+    height: 411px;
+
+    background: linear-gradient(90deg, #EBFF00 0%, #D97A22 100%);
+    mix-blend-mode: normal;
+    filter: blur(189px);
+}
+
+#ell1 {
+    left: -37px;
+    top: -110px;
+}
+
+#ell2 {
+    right: 0px;
+    top: 500px;
+}
+
+.applications h1 {
+    position: absolute;
+    width: 1400px;
+    height: 52px;
+    left: 317px;
+    top: 120px;
+}
+
+.cards {
+    position: absolute;
+    width: 1337.99px;
+    height: 631.12px;
+    left: calc(50% - 1337.99px/2 - 0px);
+    top: 250px;
+}
+
+.card1 {
+    position: absolute;
+    width: 327.99px;
+    height: 631.12px;
+    left: 50px;
+    top: 10px;
+
+    background: rgba(240, 240, 240, 0.941176);
+    border-radius: 33px;
+}
+
+#title1 {
+    position: absolute;
+    width: 299px;
+    height: 66px;
+    left: calc(50% - 299px/2);
+    top: 450px;
+
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#mechatronics {
+    position: absolute;
+    width: 298.68px;
+    height: 414px;
+    left: 15px;
+    top: 20px;
+
+    background: #7B7A7A;
+    border-radius: 33px;
+}
+
+.card2 {
+    position: absolute;
+    width: 327.99px;
+    height: 631.12px;
+    left: 535px;
+    top: 10px;
+
+    background: rgba(240, 240, 240, 0.941176);
+    border-radius: 33px;
+}
+
+#title2 {
+    position: absolute;
+    width: 299px;
+    height: 66px;
+    left: calc(50% - 299px/2);
+    top: 450px;
+
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#mechanical {
+    position: absolute;
+    width: 298.68px;
+    height: 414px;
+    left: 15px;
+    top: 20px;
+
+    background: #7B7A7A;
+    border-radius: 33px;
+}
+
+.card3 {
+    position: absolute;
+    width: 327.99px;
+    height: 631.12px;
+    left: 1030px;
+    top: 10px;
+
+    background: rgba(240, 240, 240, 0.941176);
+    border-radius: 33px;
+}
+
+#title3 {
+    position: absolute;
+    width: 299px;
+    height: 66px;
+    left: calc(50% - 299px/2);
+    top: 450px;
+
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+#ai {
+    position: absolute;
+    width: 298.68px;
+    height: 414px;
+    left: 15px;
+    top: 20px;
+
+    background: #7B7A7A;
+    border-radius: 33px;
+}
