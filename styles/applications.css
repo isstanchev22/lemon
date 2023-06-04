@@ -27,6 +27,11 @@ p {
     color: #FFFFFF;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .ellipse {
     position: absolute;
     width: 433px;
