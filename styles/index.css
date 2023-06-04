@@ -151,3 +151,51 @@ p {
     background: url(../img/robot.png);
     border-radius: 33px;
 }
+
+.history h1 {
+    position: absolute;
+    width: 338px;
+    height: 40px;
+    left: 1405px;
+    top: 3476px;
+
+    text-align: center;
+    text-shadow: 0px 4px 0px #000000;
+}
+
+.history p {
+    position: absolute;
+    width: 961px;
+    height: 844px;
+    left: 99px;
+    top: 3618px;
+}
+
+.history ol {
+    position: absolute;
+    width: 893px;
+    height: 235px;
+    left: 148px;
+    top: 4239px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+.history_img {
+    position: absolute;
+    width: 726px;
+    height: 919px;
+    left: 1093px;
+    top: 3591px;
+
+    background: url(../img/robot4.png);
+    border-radius: 33px;
+}
