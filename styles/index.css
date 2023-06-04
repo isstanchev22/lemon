@@ -55,7 +55,6 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 }
 
 .maintext p {
@@ -122,4 +121,33 @@ p {
 #ell7 {
     left: 0px;
     top: 6898px;
+}
+
+.about h1 {
+    position: absolute;
+    left: 209px;
+    top: 2533px;
+    width: 800px;
+    height: 24px;
+    text-shadow: 0px 4px 0px #000000;
+}
+
+.about p {
+    position: absolute;
+    width: 491px;
+    height: 420px;
+    left: 1252px;
+    top: 2683px;
+    text-align: right;
+}
+
+.about_img {
+    position: absolute;
+    width: 1099px;
+    height: 683px;
+    left: 99px;
+    top: 2656px;
+
+    background: url(../img/robot.png);
+    border-radius: 33px;
 }
