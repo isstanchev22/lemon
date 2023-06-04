@@ -32,6 +32,82 @@ a {
     color: black;
 }
 
+nav {
+    position: fixed;
+    width: 602px;
+    height: 162.89px;
+    right: 40px;
+    top: 0px;
+}
+
+#logo {
+    position: absolute;
+    width: 113px;
+    height: 75px;
+    right: 760px;
+    top: 10px;
+}
+
+#home {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #C9C9C9;
+}
+
+#feedback {
+    position: absolute;
+    right: 170px;
+    top: 40px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #C9C9C9;
+}
+
+#about-us {
+    position: absolute;
+    right: 370px;
+    top: 40px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #C9C9C9;
+}
+
+#applications {
+    position: absolute;
+    right: 570px;
+    top: 40px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #D97A22;
+}
+
 .ellipse {
     position: absolute;
     width: 433px;

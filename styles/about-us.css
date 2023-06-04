@@ -40,7 +40,7 @@ nav {
     width: 433px;
     height: 411px;
 
-    background: linear-gradient(90deg, #00FF29 0%, #222AD9 100%);
+    background: linear-gradient(90deg, #EBFF00 0%, #D97A22 100%);
     mix-blend-mode: normal;
     filter: blur(189px);
 }
@@ -56,11 +56,19 @@ nav {
 }
 
 nav {
-    position: absolute;
+    position: fixed;
     width: 602px;
     height: 162.89px;
-    left: 1189px;
+    right: 40px;
     top: 0px;
+}
+
+#logo {
+    position: absolute;
+    width: 113px;
+    height: 75px;
+    right: 760px;
+    top: 10px;
 }
 
 #home {
@@ -71,7 +79,7 @@ nav {
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 24px;
 
     text-decoration: none;
@@ -80,13 +88,13 @@ nav {
 
 #feedback {
     position: absolute;
-    right: 200px;
+    right: 170px;
     top: 40px;
 
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 24px;
 
     text-decoration: none;
@@ -95,17 +103,32 @@ nav {
 
 #about-us {
     position: absolute;
-    right: 450px;
+    right: 370px;
     top: 40px;
 
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 24px;
 
     text-decoration: none;
-    color: #0075FE;
+    color: #D97A22;
+}
+
+#applications {
+    position: absolute;
+    right: 570px;
+    top: 40px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #C9C9C9;
 }
 
 .cards {

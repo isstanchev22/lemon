@@ -21,7 +21,7 @@ p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 40px;
     letter-spacing: 0.045em;
 
@@ -29,11 +29,19 @@ p {
 }
 
 nav {
-    position: absolute;
+    position: fixed;
     width: 602px;
     height: 162.89px;
-    left: 1189px;
+    right: 40px;
     top: 0px;
+}
+
+#logo {
+    position: absolute;
+    width: 113px;
+    height: 75px;
+    right: 760px;
+    top: 10px;
 }
 
 #home {
@@ -44,7 +52,7 @@ nav {
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 24px;
 
     text-decoration: none;
@@ -53,13 +61,13 @@ nav {
 
 #feedback {
     position: absolute;
-    right: 200px;
+    right: 170px;
     top: 40px;
 
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 24px;
 
     text-decoration: none;
@@ -68,13 +76,28 @@ nav {
 
 #about-us {
     position: absolute;
-    right: 450px;
+    right: 370px;
     top: 40px;
 
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 24px;
+
+    text-decoration: none;
+    color: #C9C9C9;
+}
+
+#applications {
+    position: absolute;
+    right: 570px;
+    top: 40px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
     line-height: 24px;
 
     text-decoration: none;
@@ -202,7 +225,13 @@ nav {
     top: 6898px;
 }
 
-.about h1 {
+iframe {
+    position: absolute;
+    left: 86px;
+    top: 1263px;
+}
+
+#about h1 {
     position: absolute;
     left: 209px;
     top: 2533px;
@@ -211,7 +240,7 @@ nav {
     text-shadow: 0px 4px 0px #000000;
 }
 
-.about p {
+#about p {
     position: absolute;
     width: 491px;
     height: 420px;
@@ -222,12 +251,11 @@ nav {
 
 .about_img {
     position: absolute;
-    width: 1099px;
-    height: 683px;
+    width: 800px;
+    height: 483px;
     left: 99px;
     top: 2656px;
 
-    background: url(../img/robot.png);
     border-radius: 33px;
 }
 
@@ -270,12 +298,11 @@ nav {
 
 .history_img {
     position: absolute;
-    width: 726px;
-    height: 919px;
-    left: 1093px;
+    width: 526px;
+    height: 719px;
+    right: 99px;
     top: 3591px;
 
-    background: url(../img/robot4.png);
     border-radius: 33px;
 }
 
