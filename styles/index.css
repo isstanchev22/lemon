@@ -339,17 +339,17 @@ iframe {
     color: #FFFFFF;
 }
 
-#ul1{
+#ul1 {
     left: 920px;
     top: 5055px;
 }
 
-#ul2{
+#ul2 {
     left: 920px;
     top: 5095px;
 }
 
-#ul3{
+#ul3 {
     left: 920px;
     top: 5135px;
 }
@@ -393,20 +393,18 @@ iframe {
     border-radius: 33px;
 }
 
-/* width */
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #2c2c2c;;
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c;
+    ;
     border-radius: 10px;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     filter: blur(189px);
     background: linear-gradient(180deg, #EBFF00 0%, #D97A22 100%);
     border-radius: 10px;
-  }
+}
