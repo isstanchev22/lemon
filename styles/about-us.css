@@ -9,8 +9,8 @@ h1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 30px;
+    line-height: 30px;
     letter-spacing: 0.045em;
 
     color: #FFFFFF;
@@ -255,11 +255,6 @@ p {
     color: #000000;
 }
 
-#discription1 {
-    top: 50px;
-    text-align: center;
-}
-
 .flip-card {
     background-color: transparent;
     perspective: 1000px;
@@ -304,4 +299,19 @@ p {
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
+}
+
+.flip-card-back h1 {
+    width: 330px;
+    position: absolute;
+    left: calc(50% - 330px/2);
+    top: 50px;
+    text-align: center;
+}
+
+.flip-card-back p {
+    position: absolute;
+    top: 300px;
+    left: 47px;
+    text-align: center;
 }
