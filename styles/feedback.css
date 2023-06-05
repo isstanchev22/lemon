@@ -1,1 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+body {
+    background-color: #1E1E1E;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+#home {
+    color: #C9C9C9;
+}
+
+#feedback {
+    color: #D97A22;
+}
+
+#about-us {
+    color: #C9C9C9;
+}
+
+#applications {
+    color: #C9C9C9;
+}
+
+#sources {
+    color: #C9C9C9;
+}
+
+.feedback {
+    position: absolute;
+    width: 1439.16px;
+    height: 726px;
+    left: 269.84px;
+    top: 160px;
+
+    background: #E9E7D2;
+    border-radius: 33px;
+}
+
+#feedbackh1 {
+    position: absolute;
+    width: 1131.67px;
+    height: 800.79px;
+    left: 100px;
+    top: 20px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+    /* or 34% */
+
+
+    /* gradient */
+
+    background: linear-gradient(90deg, #EBFF00 0%, #D97A22 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    mix-blend-mode: darken;
+
+}
+
+.maintext {
+    position: absolute;
+    width: 730.11px;
+    height: 345.46px;
+    left: -300px;
+    top: 200px;
+}
+
+.maintext h1 {
+    position: absolute;
+    width: 730.11px;
+    height: 81.88px;
+    left: 212px;
+    top: 0px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52px;
+    /* or 118% */
+
+    text-align: center;
+    letter-spacing: -0.5px;
+
+    color: #000000;
+}
+
+.maintext p {
+    position: absolute;
+    width: 375px;
+    height: 257px;
+    left: 445px;
+    top: 70px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    /* or 100% */
+
+
+    color: #3A3A3A;
+}
