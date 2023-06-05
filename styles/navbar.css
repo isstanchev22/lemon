@@ -12,7 +12,7 @@ nav {
     position: absolute;
     width: 113px;
     height: 75px;
-    right: 760px;
+    right: 840px;
     top: 10px;
 }
 
@@ -32,7 +32,7 @@ nav {
 
 #feedback {
     position: absolute;
-    right: 170px;
+    right: 140px;
     top: 40px;
 
     font-family: 'Cabin';
@@ -46,7 +46,7 @@ nav {
 
 #about-us {
     position: absolute;
-    right: 370px;
+    right: 310px;
     top: 40px;
 
     font-family: 'Cabin';
@@ -60,7 +60,21 @@ nav {
 
 #applications {
     position: absolute;
-    right: 570px;
+    right: 640px;
+    top: 40px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+
+    text-decoration: none;
+}
+
+#sources {
+    position: absolute;
+    right: 480px;
     top: 40px;
 
     font-family: 'Cabin';

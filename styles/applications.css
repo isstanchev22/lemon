@@ -48,6 +48,10 @@ a {
     color: #D97A22;
 }
 
+#sources {
+    color: #C9C9C9;
+}
+
 .ellipse {
     position: absolute;
     width: 433px;
