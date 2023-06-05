@@ -9,7 +9,7 @@ h1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    font-size: 70px;
+    font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.045em;
 
@@ -20,7 +20,7 @@ p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 16px;
     line-height: 40px;
     letter-spacing: 0.045em;
 
@@ -76,14 +76,8 @@ p {
 }
 
 #card1 {
-    position: absolute;
-    width: 364.58px;
-    height: 600px;
     left: 85px;
     top: 20px;
-
-    background: rgba(240, 240, 240, 0.941176);
-    border-radius: 33px;
 }
 
 #scrum_img {
@@ -127,14 +121,8 @@ p {
 }
 
 #card2 {
-    position: absolute;
-    width: 364.58px;
-    height: 600px;
     left: 546px;
     top: 20px;
-
-    background: rgba(240, 240, 240, 0.941176);
-    border-radius: 33px;
 }
 
 #front1_img {
@@ -178,14 +166,8 @@ p {
 }
 
 #card3 {
-    position: absolute;
-    width: 364.58px;
-    height: 600px;
     left: 1008px;
     top: 20px;
-
-    background: rgba(240, 240, 240, 0.941176);
-    border-radius: 33px;
 }
 
 #front2_img {
@@ -229,14 +211,8 @@ p {
 }
 
 #card4 {
-    position: absolute;
-    width: 364.58px;
-    height: 600px;
     left: 1470px;
     top: 20px;
-
-    background: rgba(240, 240, 240, 0.941176);
-    border-radius: 33px;
 }
 
 #designer_img {
@@ -277,4 +253,55 @@ p {
     text-align: center;
     letter-spacing: 0.02em;
     color: #000000;
+}
+
+#discription1 {
+    top: 50px;
+    text-align: center;
+}
+
+.flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+    position: absolute;
+    width: 364.58px;
+    height: 600px;
+
+    border-radius: 33px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    border-radius: 33px;
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 33px;
+}
+
+.flip-card-front {
+    background-color: rgba(240, 240, 240, 0.941176);
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
 }
