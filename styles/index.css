@@ -217,12 +217,7 @@ nav {
 
 #ell6 {
     right: 0px;
-    top: 6003px;
-}
-
-#ell7 {
-    left: 0px;
-    top: 6898px;
+    top: 5650px;
 }
 
 iframe {
@@ -233,8 +228,8 @@ iframe {
 
 #about h1 {
     position: absolute;
-    left: 209px;
-    top: 2533px;
+    left: 150px;
+    top: 2600px;
     width: 800px;
     height: 24px;
     text-shadow: 0px 4px 0px #000000;
@@ -245,7 +240,7 @@ iframe {
     width: 491px;
     height: 420px;
     left: 1252px;
-    top: 2683px;
+    top: 2710px;
     text-align: right;
 }
 
@@ -253,8 +248,8 @@ iframe {
     position: absolute;
     width: 800px;
     height: 483px;
-    left: 99px;
-    top: 2656px;
+    left: 150px;
+    top: 2750px;
 
     border-radius: 33px;
 }
@@ -263,8 +258,8 @@ iframe {
     position: absolute;
     width: 338px;
     height: 40px;
-    left: 1405px;
-    top: 3476px;
+    left: 1435px;
+    top: 3300px;
 
     text-align: center;
     text-shadow: 0px 4px 0px #000000;
@@ -272,23 +267,23 @@ iframe {
 
 .history p {
     position: absolute;
-    width: 961px;
+    width: 900px;
     height: 844px;
-    left: 99px;
-    top: 3618px;
+    left: 150px;
+    top: 3410px;
 }
 
 .history ol {
     position: absolute;
     width: 893px;
     height: 235px;
-    left: 148px;
-    top: 4239px;
+    left: 150px;
+    top: 4020px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 40px;
 
     letter-spacing: 0.045em;
@@ -300,8 +295,8 @@ iframe {
     position: absolute;
     width: 526px;
     height: 719px;
-    right: 99px;
-    top: 3591px;
+    left: 1210px;
+    top: 3450px;
 
     border-radius: 33px;
 }
@@ -310,30 +305,31 @@ iframe {
     position: absolute;
     width: 825px;
     height: 40px;
-    left: 99px;
-    top: 4746px;
+    left: 128px;
+    top: 4320px;
+
+    text-align: center;
+    text-shadow: 0px 4px 0px #000000;
 }
 
 .applications p {
     position: absolute;
     width: 819px;
-    height: 1113px;
-    left: 995px;
-    top: 4890px;
+    height: 613px;
+    left: 920px;
+    top: 4450px;
     text-align: right;
 }
 
-.applications ul {
+.applications .ul {
     position: absolute;
     width: 819px;
-    height: 1113px;
-    left: 955px;
-    top: 5570px;
+    height: 113px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 40px;
     /* or 111% */
 
@@ -343,14 +339,28 @@ iframe {
     color: #FFFFFF;
 }
 
+#ul1{
+    left: 920px;
+    top: 5055px;
+}
+
+#ul2{
+    left: 920px;
+    top: 5095px;
+}
+
+#ul3{
+    left: 920px;
+    top: 5135px;
+}
+
 .applications_img {
     position: absolute;
-    width: 857px;
-    height: 1080px;
-    left: 87px;
-    top: 4883px;
+    width: 600px;
+    height: 700px;
+    left: 150px;
+    top: 4480px;
 
-    background: url(../img/robot2.png);
     border-radius: 33px;
 }
 
@@ -358,25 +368,27 @@ iframe {
     position: absolute;
     width: 1122px;
     height: 40px;
-    left: 636px;
-    top: 6240px;
+    left: 630px;
+    top: 5300px;
+
+    text-align: center;
+    text-shadow: 0px 4px 0px #000000;
 }
 
 .prosandcons p {
     position: absolute;
     width: 611px;
-    height: 520px;
-    left: 87px;
-    top: 6425px;
+    height: 420px;
+    left: 150px;
+    top: 5450px;
 }
 
 .prosandcons_img {
     position: absolute;
-    width: 1030px;
-    height: 585px;
-    left: 802px;
-    top: 6450px;
+    width: 630px;
+    height: 455px;
+    left: 1100px;
+    top: 5490px;
 
-    background: url(../img/robot3.png);
     border-radius: 33px;
 }
