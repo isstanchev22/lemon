@@ -296,7 +296,7 @@ p {
 }
 
 .flip-card-back {
-    background-color: #2980b9;
+    background-color: rgba(240, 240, 240, 0.5);
     color: white;
     transform: rotateY(180deg);
 }
