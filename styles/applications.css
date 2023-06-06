@@ -90,12 +90,11 @@ a {
 
 .card1 {
     position: absolute;
+    color:#FFFFFF;
     width: 327.99px;
     height: 631.12px;
     left: 50px;
     top: 10px;
-
-    background: rgba(240, 240, 240, 0.941176);
     border-radius: 33px;
 }
 
@@ -127,12 +126,11 @@ a {
 
 .card2 {
     position: absolute;
+    color:#FFFFFF;
     width: 327.99px;
     height: 631.12px;
     left: 535px;
     top: 10px;
-
-    background: rgba(240, 240, 240, 0.941176);
     border-radius: 33px;
 }
 
@@ -164,12 +162,11 @@ a {
 
 .card3 {
     position: absolute;
+    color:#FFFFFF;
     width: 327.99px;
     height: 631.12px;
     left: 1030px;
     top: 10px;
-
-    background: rgba(240, 240, 240, 0.941176);
     border-radius: 33px;
 }
 
