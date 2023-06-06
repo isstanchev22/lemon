@@ -29,7 +29,7 @@ p {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #home {
@@ -110,7 +110,7 @@ a {
     line-height: 33px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 #mechatronics {
@@ -119,8 +119,6 @@ a {
     height: 414px;
     left: 15px;
     top: 20px;
-
-    background: #7B7A7A;
     border-radius: 33px;
 }
 
@@ -146,7 +144,7 @@ a {
     line-height: 33px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 #mechanical {
@@ -182,7 +180,7 @@ a {
     line-height: 33px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 #ai {
@@ -191,7 +189,5 @@ a {
     height: 414px;
     left: 15px;
     top: 20px;
-
-    background: #7B7A7A;
     border-radius: 33px;
 }
