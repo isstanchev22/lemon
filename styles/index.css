@@ -145,6 +145,32 @@ iframe {
     top: 1263px;
 }
 
+button {
+    position: absolute;
+    width: 265px;
+    height: 57px;
+    left: 190px;
+    top: 200px;
+
+    background: #D97A22;
+    box-shadow: -2px 4px 6px -2px #F0F0F0;
+    border-radius: 16px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+    letter-spacing: 0.045em;
+
+    color: #EAEAEA;
+
+    text-shadow: 0px 4px 4px #000000;
+}
+
 #about h1 {
     position: absolute;
     left: 150px;
