@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 
 nav {
-    position: fixed;
+    position: absolute;
     width: 602px;
     height: 162.89px;
     right: 40px;
