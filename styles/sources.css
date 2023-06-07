@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+    background-color: #1E1E1E;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+#home {
+    color: #C9C9C9;
+}
+
+#feedback {
+    color: #C9C9C9;
+}
+
+#about-us {
+    color: #C9C9C9;
+}
+
+#applications {
+    color: #C9C9C9;
+}
+
+#sources {
+    color: #D97A22;
+}
+
+.ellipse {
+    position: absolute;
+    width: 433px;
+    height: 411px;
+
+    background: linear-gradient(90deg, #EBFF00 0%, #D97A22 100%);
+    mix-blend-mode: normal;
+    filter: blur(189px);
+}
+
+#ell1 {
+    left: -37px;
+    top: -110px;
+}
+
+#ell2 {
+    right: 0px;
+    top: 550px;
+}
+
+.maintext {
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    left: calc(50% - 1000px/2);
+    top: 400px;
+}
+
+.maintext h1 {
+    position: absolute;
+    width: 1000px;
+    height: 148px;
+    top: -250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 148px;
+    line-height: 148px;
+    /* identical to box height, or 53% */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+}
+
+.maintext p {
+    position: absolute;
+    width: 600px;
+    height: 148px;
+    left: calc(50% - 600px/2);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 117% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.88;
+}
+
+#p1 {
+    top: 0px;
+}
+
+#p2 {
+    top: 65px;
+}
+
+#p3 {
+    top: 95px;
+}
+
+#p4 {
+    top: 125px;
+}
+
+#p5 {
+    top: 155px;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}

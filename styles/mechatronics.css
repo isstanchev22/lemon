@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+body {
+    background-color: #1E1E1E;
+}
+
+#home {
+    color: #C9C9C9;
+}
+
+#feedback {
+    color: #C9C9C9;
+}
+
+#about-us {
+    color: #C9C9C9;
+}
+
+#applications {
+    color: #C9C9C9;
+}
+
+#sources {
+    color: #C9C9C9;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+.ellipse {
+    position: absolute;
+    width: 433px;
+    height: 411px;
+
+    background: linear-gradient(90deg, #EBFF00 0%, #D97A22 100%);
+    mix-blend-mode: normal;
+    filter: blur(189px);
+}
+
+#ell1 {
+    left: -37px;
+    top: -110px;
+}
+
+#ell2 {
+    right: 0px;
+    top: 600px;
+}
+
+#ell3 {
+    left: 0px;
+    top: 1700px;
+}
+
+.first-info h1 {
+    position: absolute;
+    width: 1000px;
+    height: 420px;
+    left: 100px;
+    top: 150px;
+    text-align: left;
+}
+
+.first-info p {
+    position: absolute;
+    width: 1000px;
+    height: 420px;
+    left: 100px;
+    top: 250px;
+    text-align: left;
+}
+
+#mech1 {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    right: 100px;
+    top: 250px;
+
+    border-radius: 33px;
+}
+
+.second-info h1 {
+    position: absolute;
+    width: 335px;
+    height: 420px;
+    right: 100px;
+    top: 700px;
+    text-align: left;
+}
+
+.second-info p {
+    position: absolute;
+    width: 1000px;
+    height: 420px;
+    right: 100px;
+    top: 800px;
+    text-align: right;
+}
+
+#mech2 {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    left: 100px;
+    top: 710px;
+
+    border-radius: 33px;
+}
+
+.third-info h1 {
+    position: absolute;
+    width: 1000px;
+    height: 420px;
+    left: 100px;
+    top: 1200px;
+    text-align: left;
+}
+
+.third-info p {
+    position: absolute;
+    width: 1000px;
+    height: 420px;
+    left: 100px;
+    top: 1300px;
+    text-align: left;
+}
+
+#mech3 {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    right: 100px;
+    top: 1200px;
+
+    border-radius: 33px;
+}
+
+.fourth-info h1 {
+    position: absolute;
+    width: 245px;
+    height: 420px;
+    right: 100px;
+    top: 1650px;
+    text-align: left;
+}
+
+.fourth-info p {
+    position: absolute;
+    width: 1000px;
+    height: 220px;
+    right: 100px;
+    top: 1750px;
+    text-align: right;
+}
+
+#mech4 {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    left: 100px;
+    top: 1650px;
+
+    border-radius: 33px;
+}

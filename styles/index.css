@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+
+/* Styling for the home page */
+
+body {
+    background-color: #1E1E1E;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+#home {
+    color: #D97A22;
+}
+
+#feedback {
+    color: #C9C9C9;
+}
+
+#about-us {
+    color: #C9C9C9;
+}
+
+#applications {
+    color: #C9C9C9;
+}
+
+#sources {
+    color: #C9C9C9;
+}
+
+.maintext {
+    position: absolute;
+    width: 640px;
+    height: 200px;
+    left: calc(50% - 640px/2);
+    top: 452px;
+}
+
+.maintext h1 {
+    position: absolute;
+    width: 640px;
+    height: 148px;
+    top: -250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 148px;
+    line-height: 148px;
+    /* identical to box height, or 53% */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    background: linear-gradient(91.36deg, #EBFF00 34.69%, #D97A22 66.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.maintext p {
+    position: absolute;
+    width: 493px;
+    height: 148px;
+    left: calc(50% - 493px/2);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 117% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.88;
+}
+
+.ellipse {
+    position: absolute;
+    width: 433px;
+    height: 411px;
+
+    background: linear-gradient(90deg, #EBFF00 0%, #D97A22 100%);
+    mix-blend-mode: normal;
+    filter: blur(189px);
+}
+
+#ell1 {
+    left: -37px;
+    top: -110px;
+}
+
+#ell2 {
+    right: 0px;
+    top: 600px;
+}
+
+#ell3 {
+    left: 0px;
+    top: 2327px;
+}
+
+#ell4 {
+    right: 0px;
+    top: 3270px;
+}
+
+#ell5 {
+    left: 34px;
+    top: 4560px;
+}
+
+#ell6 {
+    right: 0px;
+    top: 5650px;
+}
+
+iframe {
+    position: absolute;
+    left: 86px;
+    top: 1263px;
+}
+
+button {
+    position: absolute;
+    width: 265px;
+    height: 57px;
+    left: 190px;
+    top: 200px;
+
+    background: #D97A22;
+    box-shadow: -2px 4px 6px -2px #F0F0F0;
+    border-radius: 16px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+    letter-spacing: 0.045em;
+
+    color: #EAEAEA;
+
+    text-shadow: 0px 4px 4px #000000;
+}
+
+#about h1 {
+    position: absolute;
+    left: 150px;
+    top: 2600px;
+    width: 800px;
+    height: 24px;
+    text-shadow: 0px 4px 0px #000000;
+}
+
+#about p {
+    position: absolute;
+    width: 491px;
+    height: 420px;
+    left: 1252px;
+    top: 2710px;
+    text-align: right;
+}
+
+.about_img {
+    position: absolute;
+    width: 800px;
+    height: 483px;
+    left: 150px;
+    top: 2750px;
+
+    border-radius: 33px;
+}
+
+.history h1 {
+    position: absolute;
+    width: 338px;
+    height: 40px;
+    left: 1435px;
+    top: 3300px;
+
+    text-align: center;
+    text-shadow: 0px 4px 0px #000000;
+}
+
+.history p {
+    position: absolute;
+    width: 900px;
+    height: 844px;
+    left: 150px;
+    top: 3410px;
+}
+
+.history ol {
+    position: absolute;
+    width: 893px;
+    height: 235px;
+    left: 150px;
+    top: 4020px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+.history_img {
+    position: absolute;
+    width: 526px;
+    height: 719px;
+    left: 1210px;
+    top: 3450px;
+
+    border-radius: 33px;
+}
+
+.applications h1 {
+    position: absolute;
+    width: 825px;
+    height: 40px;
+    left: 128px;
+    top: 4320px;
+
+    text-align: center;
+    text-shadow: 0px 4px 0px #000000;
+}
+
+.applications p {
+    position: absolute;
+    width: 819px;
+    height: 613px;
+    left: 920px;
+    top: 4450px;
+    text-align: right;
+}
+
+.applications .ul {
+    position: absolute;
+    width: 819px;
+    height: 113px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 111% */
+
+    text-align: right;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+#ul1 {
+    left: 920px;
+    top: 5055px;
+}
+
+#ul2 {
+    left: 920px;
+    top: 5095px;
+}
+
+#ul3 {
+    left: 920px;
+    top: 5135px;
+}
+
+.applications_img {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    left: 150px;
+    top: 4480px;
+
+    border-radius: 33px;
+}
+
+.prosandcons h1 {
+    position: absolute;
+    width: 1122px;
+    height: 40px;
+    left: 630px;
+    top: 5300px;
+
+    text-align: center;
+    text-shadow: 0px 4px 0px #000000;
+}
+
+.prosandcons p {
+    position: absolute;
+    width: 611px;
+    height: 420px;
+    left: 150px;
+    top: 5450px;
+}
+
+.prosandcons_img {
+    position: absolute;
+    width: 630px;
+    height: 455px;
+    left: 1100px;
+    top: 5490px;
+
+    border-radius: 33px;
+}
