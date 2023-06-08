@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 
+/* Properties for the layout of the page */
 body {
     background-color: #1E1E1E;
 }
 
+/* Main settings for h1 tag and p tag */
 h1 {
     font-family: 'Inter';
     font-style: normal;
@@ -28,6 +30,7 @@ p {
     color: #FFFFFF;
 }
 
+/* Main styling for the navbar */
 #home {
     color: #C9C9C9;
 }
@@ -48,6 +51,7 @@ p {
     color: #C9C9C9;
 }
 
+/* Feedback div properties */
 .feedback {
     position: absolute;
     width: 1439.16px;
@@ -59,6 +63,7 @@ p {
     border-radius: 33px;
 }
 
+/* Feedback h1 properties */
 #feedbackh1 {
     position: absolute;
     width: 1131.67px;
@@ -85,6 +90,7 @@ p {
 
 }
 
+/* Properties for the maintext div */
 .maintext {
     position: absolute;
     width: 730.11px;
@@ -93,6 +99,7 @@ p {
     top: 200px;
 }
 
+/* Settings for the maintext h1 */
 .maintext h1 {
     position: absolute;
     width: 730.11px;
@@ -113,6 +120,7 @@ p {
     color: #000000;
 }
 
+/* Settings for the maintext p */
 .maintext p {
     position: absolute;
     width: 375px;
@@ -131,6 +139,7 @@ p {
     color: #3A3A3A;
 }
 
+/* Settings for the name row */
 #name {
     position: relative;
     font-family: 'Cabin';
@@ -143,7 +152,8 @@ p {
     border-radius: 17px;
 }
 
-#feed-back {
+/* Settings for the email address row */
+#email-address {
     position: relative;
     font-family: 'Cabin';
     text-align:center;
@@ -155,7 +165,8 @@ p {
     border-radius: 17px;
 }
 
-#email-address {
+/* Settings for the feed back row */
+#feed-back {
     position: relative;
     font-family: 'Cabin';
     text-align:center;
@@ -167,6 +178,7 @@ p {
     border-radius: 17px;
 }
 
+/* Settings for the button */
 #button {
     position: absolute;
     text-align:center;
