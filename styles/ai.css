@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 
+/* Main properties for the page */
 body {
     background-color: #1E1E1E;
 }
 
+/* Styling for the navbar */
 #home {
     color: #C9C9C9;
 }
@@ -26,6 +28,7 @@ body {
     color: #C9C9C9;
 }
 
+/* Properties for all h1 and p tags */
 h1 {
     font-family: 'Inter';
     font-style: normal;
@@ -48,6 +51,7 @@ p {
     color: #FFFFFF;
 }
 
+/* Positioning for the h1 tag in first-info div */
 .first-info h1 {
     position: absolute;
     width: 1000px;
@@ -57,7 +61,8 @@ p {
     text-align: left;
 }
 
-.first-info p {
+/* Positioning for the p tag in the first-info div */
+.first-info p { 
     position: absolute;
     width: 1000px;
     height: 420px;
@@ -66,6 +71,7 @@ p {
     text-align: left;
 }
 
+/* Positioning and size of the img tag in the first-info div */
 #ai1 {
     position: absolute;
     width: 600px;
@@ -76,6 +82,7 @@ p {
     border-radius: 33px;
 }
 
+/* Positioning for the h1 tag in second-info div */
 .second-info h1 {
     position: absolute;
     width: 335px;
@@ -85,6 +92,7 @@ p {
     text-align: left;
 }
 
+/* Positioning for the p tag in second-info div */
 .second-info p {
     position: absolute;
     width: 1000px;
@@ -94,6 +102,7 @@ p {
     text-align: right;
 }
 
+/* Positioning for the img tag in second-info div */
 #ai2 {
     position: absolute;
     width: 600px;
@@ -104,6 +113,7 @@ p {
     border-radius: 33px;
 }
 
+/* Positioning for the h1 tag in third-info div */
 .third-info h1 {
     position: absolute;
     width: 1000px;
@@ -113,6 +123,7 @@ p {
     text-align: left;
 }
 
+/* Positioning for the p tag in third-info div */
 .third-info p {
     position: absolute;
     width: 1000px;
@@ -122,6 +133,7 @@ p {
     text-align: left;
 }
 
+/* Positioning for the img tag in third-info div */
 #ai3 {
     position: absolute;
     width: 600px;
@@ -132,6 +144,7 @@ p {
     border-radius: 33px;
 }
 
+/* Positioning for the h1 tag in fourth-info div */
 .fourth-info h1 {
     position: absolute;
     width: 431px;
@@ -141,6 +154,7 @@ p {
     text-align: left;
 }
 
+/* Positioning for the p tag in fourth-info div */
 .fourth-info p {
     position: absolute;
     width: 1000px;
@@ -150,6 +164,7 @@ p {
     text-align: right;
 }
 
+/* Positioning for the img tag in fourth-info div */
 #ai4 {
     position: absolute;
     width: 600px;
