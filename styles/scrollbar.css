@@ -1,13 +1,16 @@
+/* Width properties for the scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
 }
 
+/* Properties for the scrollbar track */
 ::-webkit-scrollbar-track {
     background: #2c2c2c;
     ;
     border-radius: 10px;
 }
 
+/* Properties for the main scroll */
 ::-webkit-scrollbar-thumb {
     filter: blur(189px);
     background: linear-gradient(180deg, #EBFF00 0%, #D97A22 100%);

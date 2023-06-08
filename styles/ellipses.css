@@ -1,3 +1,4 @@
+/* Properties of the ellipse which is used for the design */
 .ellipse {
     position: absolute;
     width: 433px;
@@ -8,6 +9,7 @@
     filter: blur(189px);
 }
 
+/* Positioning for the ellipses on the screen */
 #ell1 {
     left: -37px;
     top: -110px;

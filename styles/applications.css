@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 
+/* Properties for the layout of the page */
 body {
     background-color: #1E1E1E;
 }
 
+/* Main settings for h1 tag, p tag and a tag */
 h1 {
     font-family: 'Cabin';
     font-style: normal;
@@ -32,6 +34,7 @@ a {
     color: rgb(255, 255, 255);
 }
 
+/* Main styling for the navbar */
 #home {
     color: #C9C9C9;
 }
@@ -52,6 +55,7 @@ a {
     color: #C9C9C9;
 }
 
+/* Settings for the title on the page */
 .applications h1 {
     position: absolute;
     width: 1400px;
@@ -60,6 +64,7 @@ a {
     top: 120px;
 }
 
+/* Positioning of the applications div */
 .cards {
     position: absolute;
     width: 1337.99px;
@@ -68,6 +73,7 @@ a {
     top: 250px;
 }
 
+/* Settings for the first card wich forwards to the first application */
 .card1 {
     position: absolute;
     color:#FFFFFF;
@@ -78,6 +84,7 @@ a {
     border-radius: 33px;
 }
 
+/* Settings for the title of the card */
 #title1 {
     position: absolute;
     width: 299px;
@@ -93,6 +100,7 @@ a {
     color: #FFFFFF;
 }
 
+/* Settings for the image of the card */
 #mechatronics {
     position: absolute;
     width: 298.68px;
@@ -102,6 +110,7 @@ a {
     border-radius: 33px;
 }
 
+/* Settings for the second card wich forwards to the first application */
 .card2 {
     position: absolute;
     color:#FFFFFF;
@@ -112,6 +121,7 @@ a {
     border-radius: 33px;
 }
 
+/* Settings for the title of the card */
 #title2 {
     position: absolute;
     width: 299px;
@@ -127,6 +137,7 @@ a {
     color: #FFFFFF;
 }
 
+/* Settings for the image of the card */
 #mechanical {
     position: absolute;
     width: 298.68px;
@@ -138,6 +149,7 @@ a {
     border-radius: 33px;
 }
 
+/* Settings for the third card wich forwards to the first application */
 .card3 {
     position: absolute;
     color:#FFFFFF;
@@ -148,6 +160,7 @@ a {
     border-radius: 33px;
 }
 
+/* Settings for the title of the card */
 #title3 {
     position: absolute;
     width: 299px;
@@ -163,6 +176,7 @@ a {
     color: #FFFFFF;
 }
 
+/* Settings for the image of the card */
 #ai {
     position: absolute;
     width: 298.68px;

@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
+/* Properties for the layout of the page */
 body {
     background-color: #1E1E1E;
 }
 
+/* Main settings for h1 tag and p tag */
 h1 {
     font-family: 'Inter';
     font-style: normal;
@@ -27,6 +29,7 @@ p {
     color: #FFFFFF;
 }
 
+/* Main styling for the navbar */
 #home {
     color: #C9C9C9;
 }
@@ -47,7 +50,7 @@ p {
     color: #D97A22;
 }
 
-
+/* Settings for the text on the page */
 .maintext {
     position: absolute;
     width: 1000px;
@@ -94,6 +97,7 @@ p {
     opacity: 0.88;
 }
 
+/* Positioning for the p tag on the page */
 #p1 {
     top: 0px;
 }
@@ -114,6 +118,7 @@ p {
     top: 155px;
 }
 
+/* Properties for the a tag */
 a {
     font-weight: 700;
     text-decoration: none;
