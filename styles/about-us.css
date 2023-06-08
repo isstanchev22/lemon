@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 
+/* Properties for the main styling of the page */
 body {
     background-color: #1E1E1E;
 }
 
+/* Main styling for the h1 tag and p tag */
 h1 {
     font-family: 'Inter';
     font-style: normal;
@@ -27,7 +29,7 @@ p {
     color: #FFFFFF;
 }
 
-
+/* Styling for the navbar properties */
 #home {
     color: #C9C9C9;
 }
@@ -48,6 +50,7 @@ p {
     color: #C9C9C9;
 }
 
+/* Positioning of the cards div */
 .cards {
     position: absolute;
     width: 1920px;
@@ -56,11 +59,13 @@ p {
     top: 200px;
 }
 
+/* Positioning for the first card */
 #card1 {
     left: 85px;
     top: 20px;
 }
 
+/* Image properties for the first card */
 #scrum_img {
     position: absolute;
     width: 332px;
@@ -71,6 +76,7 @@ p {
     border-radius: 33px;
 }
 
+/* Title properties for the first card */
 #title1 {
     position: absolute;
     width: 240px;
@@ -86,6 +92,7 @@ p {
     color: #000000;
 }
 
+/* Name properties for the first card */
 #name1 {
     position: absolute;
     width: 250px;
@@ -101,11 +108,13 @@ p {
     color: #000000;
 }
 
+/* Positioning for the second card div */
 #card2 {
     left: 546px;
     top: 20px;
 }
 
+/* Image properties for the second card */
 #front1_img {
     position: absolute;
     width: 332px;
@@ -116,6 +125,7 @@ p {
     border-radius: 33px;
 }
 
+/* Title properties for the second card */
 #title2 {
     position: absolute;
     width: 340px;
@@ -131,6 +141,7 @@ p {
     color: #000000;
 }
 
+/* Name properties for the second card */
 #name2 {
     position: absolute;
     width: 250px;
@@ -146,11 +157,13 @@ p {
     color: #000000;
 }
 
+/* Positioning for the third card div */
 #card3 {
     left: 1008px;
     top: 20px;
 }
 
+/* Image properties for the third card */
 #front2_img {
     position: absolute;
     width: 332px;
@@ -161,6 +174,7 @@ p {
     border-radius: 33px;
 }
 
+/* Title properties for the third card */
 #title3 {
     position: absolute;
     width: 340px;
@@ -176,6 +190,7 @@ p {
     color: #000000;
 }
 
+/* Name properties for the third card */
 #name3 {
     position: absolute;
     width: 250px;
@@ -191,11 +206,13 @@ p {
     color: #000000;
 }
 
+/* Positioning for the fourth card div */
 #card4 {
     left: 1470px;
     top: 20px;
 }
 
+/* Image properties for the fourth card */
 #designer_img {
     position: absolute;
     width: 332px;
@@ -206,6 +223,7 @@ p {
     border-radius: 33px;
 }
 
+/* Title properties for the fourth card */
 #title4 {
     position: absolute;
     width: 340px;
@@ -221,6 +239,7 @@ p {
     color: #000000;
 }
 
+/* Name properties for the fourth card */
 #name4 {
     position: absolute;
     width: 250px;
@@ -236,6 +255,7 @@ p {
     color: #000000;
 }
 
+/* Properties for a individual card */
 .flip-card {
     background-color: transparent;
     perspective: 1000px;
@@ -246,6 +266,7 @@ p {
     border-radius: 33px;
 }
 
+/* Properties for the animation of the flipping card */
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -256,11 +277,13 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* This settings are included in the animation for the flipping card */
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
     border-radius: 33px;
 }
 
+/* This settings are for the layout of the flipped card */
 .flip-card-front,
 .flip-card-back {
     position: absolute;
@@ -271,17 +294,20 @@ p {
     border-radius: 33px;
 }
 
+/* This settings are for the layout of the front of the flipped card */
 .flip-card-front {
     background-color: rgba(240, 240, 240, 0.941176);
     color: black;
 }
 
+/* This settings are for the layout of the back of the flipped card */
 .flip-card-back {
     background-color: rgba(240, 240, 240, 0.5);
     color: white;
     transform: rotateY(180deg);
 }
 
+/* This settings are for the h1 text in the back of the card */
 .flip-card-back h1 {
     width: 330px;
     position: absolute;
@@ -290,6 +316,7 @@ p {
     text-align: center;
 }
 
+/* This settings are for the p text in the back of the card */
 .flip-card-back p {
     position: absolute;
     top: 300px;
