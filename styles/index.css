@@ -102,46 +102,6 @@ p {
     opacity: 0.88;
 }
 
-.ellipse {
-    position: absolute;
-    width: 433px;
-    height: 411px;
-
-    background: linear-gradient(90deg, #EBFF00 0%, #D97A22 100%);
-    mix-blend-mode: normal;
-    filter: blur(189px);
-}
-
-#ell1 {
-    left: -37px;
-    top: -110px;
-}
-
-#ell2 {
-    right: 0px;
-    top: 600px;
-}
-
-#ell3 {
-    left: 0px;
-    top: 2327px;
-}
-
-#ell4 {
-    right: 0px;
-    top: 3270px;
-}
-
-#ell5 {
-    left: 34px;
-    top: 4560px;
-}
-
-#ell6 {
-    right: 0px;
-    top: 5650px;
-}
-
 iframe {
     position: absolute;
     left: 86px;

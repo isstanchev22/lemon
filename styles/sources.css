@@ -47,25 +47,6 @@ p {
     color: #D97A22;
 }
 
-.ellipse {
-    position: absolute;
-    width: 433px;
-    height: 411px;
-
-    background: linear-gradient(90deg, #EBFF00 0%, #D97A22 100%);
-    mix-blend-mode: normal;
-    filter: blur(189px);
-}
-
-#ell1 {
-    left: -37px;
-    top: -110px;
-}
-
-#ell2 {
-    right: 0px;
-    top: 550px;
-}
 
 .maintext {
     position: absolute;
