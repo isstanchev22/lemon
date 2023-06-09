@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lemon Robotics</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <link rel="stylesheet" href="../styles/mechanical.css">
         <link rel="stylesheet" href="../styles/navbar.css">
         <link rel="stylesheet" href="../styles/scrollbar.css">
@@ -26,7 +28,7 @@
     <div class="ellipse" id="ell2"></div>
     <div class="ellipse" id="ell3"></div>
     <!-- Div for application mechanical engineering  -->
-    <div class="first-info">
+    <div class="first-info" data-aos="fade-in">
         <h1>Mechanical Engineering</h1>
         <p>Robotics is the interdisciplinary branch of technology that deals with the design, construction, operation and application of robots. It aims to develop machines that can replicate human actions. Mechanical engineering is a significant branch in engineering, having to its credit the design and uses of some wonders such as aeroplanes, ships, automobiles, and automation. Robotics in mechanical engineering encompasses the composition and structure of robots. It aims to design intelligent machines that can help and assist humans in their day-to-day lives and keep them safe when used in dangerous environments.</p>
         <img src="../img/mechanical2.jpg" id="mech1">
@@ -49,6 +51,11 @@
         <p>Robotics, automation, and artificial intelligence (AI) are expected to take control as the global industrial industry approaches its fourth revolution. The number of active industrial robots globally is rising by about 14% year on year, and automation results in new types of robots with increased usefulness and function. Future factories will most certainly include robots and people working together to fulfil customer demand – a unique environment for which business owners need to be prepared.</p>
         <img src="../img/mechanical5.jpg" id="mech4">
     </div>
-
+    <script>
+        AOS.init({
+            offset: 500,
+            duration: 2000
+        });
+    </script>
 </body>
 </html>

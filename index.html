@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lemon Robotics</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./script/scroll-in.js"></script>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/navbar.css">
@@ -46,7 +48,7 @@
     </iframe>
 
     <!-- Main information about robots -->
-    <div class="about">
+    <div class="about" data-aos="fade-in">
         <h1>What are robotics?</h1>
         <p>Robotics is a branch of engineering that involves the conception, design, manufacture and operation of
             robots. The objective of the robotics field is to create intelligent machines that can assist humans in a
@@ -94,5 +96,10 @@
     </div>
     
 </body>
-
+<script>
+    AOS.init({
+        offset: 500,
+        duration: 2000
+    });
+</script>
 </html>

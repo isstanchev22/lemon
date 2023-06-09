@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lemon Robotics</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <link rel="stylesheet" href="../styles/ai.css">
         <link rel="stylesheet" href="../styles/navbar.css">
         <link rel="stylesheet" href="../styles/scrollbar.css">
@@ -28,7 +30,7 @@
     <div class="ellipse" id="ell3"></div>
 
     <!-- Divs for information about the topic -->
-    <div class="first-info">
+    <div class="first-info" data-aos="fade-in">
         <h1>Artificial Intelligence</h1>
         <p>Fundamentally created in the early 1950s, robotics, today, is well-known as a self-operating machine with precisely trained and learned inputs, and its prevalence is omnipresent. The evolution of robotic intelligence shows a wide range of hierarchy since the time it was first created. Introduced to be deployed in factories for industrial use, it isn’t easy to find a sector where robotics is not used today. In the initial days of its advent, robots were merely designed for performing a trained set of repetitive tasks.</p>
         <img src="../img/ai2.jpg" id="ai1">
@@ -51,6 +53,11 @@
         <p>The role of robotics has a whole network of applications in the automotive industry ranging from designing, supply chain, and production activities to an entire set of management activities. Systems like driver assistance, autonomous driving, and driver risk assistance are being implemented in transportation for automobile industries. The automobile industry has been using robotic intelligence for more than 50 years. The only change from then to now is the advancement of AI and ML in this branch, which is a drastic one.</p>
         <img src="../img/ai5.jpg" id="ai4">
     </div>
-
+    <script>
+        AOS.init({
+            offset: 500,
+            duration: 2000
+        });
+    </script>
 </body>
 </html>

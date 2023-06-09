@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lemon Robotics</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <link rel="stylesheet" href="../styles/mechatronics.css">
     <link rel="stylesheet" href="../styles/navbar.css">
     <link rel="stylesheet" href="../styles/scrollbar.css">
@@ -28,7 +30,7 @@
     <div class="ellipse" id="ell2"></div>
     <div class="ellipse" id="ell3"></div>
     <!-- Div for mechatronics engineering -->
-    <div class="first-info">
+    <div class="first-info" data-aos="fade-in">
         <h1>Mechatronics Engineering</h1>
         <p>First coined in the late 1960s, “mechatronics” is now a part of everyday life. Mechatronics is what allows you to ask Alexa about the weather, puts the “control” in “cruise control”, and enables you to watch live video of your pets when you’re at work. At its most basic definition, mechatronics is integrating mechanized systems with electronic, control, and computer systems. Since its origin, mechatronics has been tied to robotics. Having multiple systems operating in conjunction and seamlessly communicating has enabled robots to go from a robotic arm used in diecasting to an artificial intelligence-based humanoid robot.</p>
         <img src="../img/mechatronics2.jpg" id="mech1">
@@ -51,7 +53,11 @@
         <p>Touted as the “world’s most humanoid robot”, ASIMO was first created by Honda in 2000. ASIMO was able to walk on multiple surfaces, climb stairs, and respond to simple voice commands. With a focus on increasing autonomy, ASIMO underwent revisions in 2011 to advance the robot’s intelligence and incorporate autonomous behavior control technology. According to Honda, “Coordination between visual and auditory sensors enables ASIMO to simultaneously recognize a face and voice, enabling ASIMO to recognize the voices of multiple people who are speaking simultaneously.”</p>
         <img src="../img/mechatronics5.jpg" id="mech4">
     </div>
-
+    <script>
+        AOS.init({
+            offset: 500,
+            duration: 2000
+        });
+    </script>
 </body>
-
 </html>
